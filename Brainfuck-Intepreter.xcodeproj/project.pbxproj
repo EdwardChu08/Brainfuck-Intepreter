@@ -8,23 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		8731DEC81E465DB80051277F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8731DEC71E465DB80051277F /* main.cpp */; };
+		8731DED01E465E420051277F /* program.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8731DECE1E465E060051277F /* program.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8731DEC21E465DB80051277F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8731DECF1E465E290051277F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				8731DED01E465E420051277F /* program.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8731DEC41E465DB80051277F /* Brainfuck-Intepreter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Brainfuck-Intepreter"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8731DEC71E465DB80051277F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8731DECE1E465E060051277F /* program.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = program.txt; path = "Brainfuck-Intepreter/program.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 		8731DEBB1E465DB80051277F = {
 			isa = PBXGroup;
 			children = (
+				8731DECE1E465E060051277F /* program.txt */,
 				8731DEC61E465DB80051277F /* Brainfuck-Intepreter */,
 				8731DEC51E465DB80051277F /* Products */,
 			);
@@ -72,6 +85,7 @@
 				8731DEC01E465DB80051277F /* Sources */,
 				8731DEC11E465DB80051277F /* Frameworks */,
 				8731DEC21E465DB80051277F /* CopyFiles */,
+				8731DECF1E465E290051277F /* CopyFiles */,
 			);
 			buildRules = (
 			);
