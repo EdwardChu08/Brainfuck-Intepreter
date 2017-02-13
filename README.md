@@ -10,6 +10,6 @@ Todo:
 
 - Check if underflow/overflow wraps
 
-- Intput more than 1 char at once
+- Input more than 1 char at once
 
 - Better error messages

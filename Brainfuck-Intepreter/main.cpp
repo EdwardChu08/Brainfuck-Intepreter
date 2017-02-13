@@ -55,6 +55,19 @@ int main() {
         }
     }
     
+    try {
+    int count = 0;
+        for(int i = 0; i < sanitized.length(); i++){
+            if(sanitized[i] == '[') count++;
+            if(sanitized[i] == ']') count--;
+            if(count < 0){
+                throw 11;
+            }
+        }
+    } catch (int e){
+        std::cout << "Exception " << e <<": Error in program, opening and closing brackets not matching." << std::endl;;
+        return 1;
+    }
     
     //Initialization
     char values[MAX_ARRAY_SIZE];
